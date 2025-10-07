@@ -22,7 +22,7 @@ after using neovim for about 5 years, this is my first time making a plugin.
 1. copy `snippet-stash.lua` into the `lua` folder of your config
 2. add `require('snippet-stash').setup()` in your `init.lua` file
 3. restart neovim
-4. try the `:SnippetList` command to verify it's installation
+4. try the `:SnippetList` command to verify its installation
 
 ## commands
 
