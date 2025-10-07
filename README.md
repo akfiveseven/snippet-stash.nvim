@@ -4,6 +4,36 @@
 
 after using neovim for about 5 years, this is my first time making a plugin.
 
+## installation
+
+### using [`lazy.nvim`]()
+```lua
+{
+ 'akfiveseven/snippet-stash.nvim',
+  config = function()
+    require('snippet-stash').setup()
+  end
+}
+```
+
+### using `packer.nvim`
+
+```lua
+use {
+ 'akfiveseven/snippet-stash.nvim',
+  config = function()
+    require('snippet-stash').setup()
+  end
+}
+```
+
+### manual installation
+
+1. copy `snippet-stash.lua` into the `lua` folder of your config
+2. add `require('snippet-stash').setup()` in your `init.lua` file
+3. restart neovim
+4. try the `:SnippetList` command to verify it's installation
+
 ## commands
 
 - use `:SnippetSave` in visual mode to save a code block and label it
