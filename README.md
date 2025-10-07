@@ -6,20 +6,10 @@ after using neovim for about 5 years, this is my first time making a plugin.
 
 ## installation
 
-### using [`lazy.nvim`]()
+### using [`lazy.nvim`](https://lazy.folke.io/installation)
+
 ```lua
 {
- 'akfiveseven/snippet-stash.nvim',
-  config = function()
-    require('snippet-stash').setup()
-  end
-}
-```
-
-### using `packer.nvim`
-
-```lua
-use {
  'akfiveseven/snippet-stash.nvim',
   config = function()
     require('snippet-stash').setup()
