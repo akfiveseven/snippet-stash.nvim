@@ -7,7 +7,7 @@ local fn = vim.fn
 
 -- Configuration
 M.config = {
-  storage_path = fn.stdpath('data') .. '/snippet-stash.json',
+  storage_path = fn.stdpath('config') .. '/snippet-stash.json',
 }
 
 -- Storage structure: { [filetype] = { {name, content}, ... } }
